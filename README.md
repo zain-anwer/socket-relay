@@ -122,8 +122,6 @@ socket-relay/
 │   └── socket_utils.c
 ├── assets/
 │   └── Lato-Regular.ttf
-├── docs/
-│   └── Project Report.pdf
 └── build/                  Generated binaries and object files (ignored)
     ├── client
     ├── server
@@ -490,4 +488,4 @@ This project is open source. See the repository for license details.
 
 **Last Updated:** September 30, 2025  
 **Repository:** https://github.com/zain-anwer/socket-relay  
-**Author:** Zain Anwer
+**Author:** Zain Ul Abidin
