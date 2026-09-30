@@ -1,4 +1,4 @@
-# Socket Relay - Multi-Client Chat System
+# Socket Relay - LAN Chat System
 
 A multi-client chat application built with C/C++ that uses TCP sockets to relay encrypted messages between clients through a central server. The server acts as a message hub, receiving messages from one client and broadcasting them to all other connected clients, while each client provides a graphical user interface (GUI) using SFML for real-time message display and input.
 
