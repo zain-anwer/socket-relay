@@ -1,0 +1,7 @@
+#ifndef PROTOCOL_H
+#define PROTOCOL_H
+
+#define MESSAGE_BUFFER_SIZE 200
+#define MAX_CHAT_MESSAGE_SIZE (MESSAGE_BUFFER_SIZE - 1)
+
+#endif

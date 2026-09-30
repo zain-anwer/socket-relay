@@ -3,13 +3,13 @@
 
 #include <stdio.h>
 #include <string.h>
+#include "protocol.h"
 
 #define QUEUE_SIZE 50
-#define BUFFER_SIZE 200
 
 struct messageQueue
 {
-	char messages[QUEUE_SIZE][BUFFER_SIZE];
+	char messages[QUEUE_SIZE][MESSAGE_BUFFER_SIZE];
 	int client_socket_fds[QUEUE_SIZE];
 	int front;
 	int rear;
@@ -25,7 +25,5 @@ struct acceptedClientSocketFDs
 	int value;
 	struct acceptedClientSocketFDs* next;
 };
-
-void fd_list_init (struct acceptedClientSocketFDs* list);
 
 #endif

@@ -35,8 +35,3 @@ char* dequeue(struct messageQueue* Q, int* socket_fd)
 	return Q->messages[index];
 }
 
-void fd_list_init (struct acceptedClientSocketFDs* list)
-{
-	list->value = 0;
-	list->next = NULL;
-}

@@ -7,7 +7,15 @@
 
 #define KEY_VALUE 4
 
-void encrypt (char* text, int key); 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+void encrypt (char* text, int key);
 void decrypt (char* text, int key);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

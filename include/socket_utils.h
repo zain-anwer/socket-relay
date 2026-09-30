@@ -10,7 +10,15 @@
 #define LOCAL_HOST_ADDRESS "127.0.0.1"
 #define PORT_NUM 2000
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 int createTCPIpv4Socket ();
-struct sockaddr* createTCPIpv4SocketAddress (char* ip, int port_num);
+struct sockaddr* createTCPIpv4SocketAddress (const char* ip, int port_num);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
